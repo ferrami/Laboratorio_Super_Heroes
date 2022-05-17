@@ -50,3 +50,9 @@ let heroes = [{
         casa: "Marvel"
     }
 ]
+
+localStorage.setItem("datos", JSON.stringify(heroes));
+
+let dbheroes = localStorage.getItem("datos");
+
+console.log(dbheroes)
