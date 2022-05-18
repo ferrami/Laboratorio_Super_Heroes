@@ -58,4 +58,5 @@ let dbheroes = localStorage.getItem("datos");
 console.log(dbheroes)
 
 let heroes2 = JSON.parse(localStorage.getItem("dbheroes"))
+
 console.log (heroes2)
